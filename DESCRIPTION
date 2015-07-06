@@ -1,0 +1,13 @@
+Package: GoogleScholarScrapeR
+Type: Package
+Title: Scrape Google Scholar for an Author's Publications
+Version: 0.1
+Date: 2015-07-06
+Author: Susan VanderPlas
+Maintainer: Susan VanderPlas <srvanderplas+googlescholarscraper@gmail.com>
+Description: Searches google scholar for an author and (possibly) institution, and downloads the bibtex citations and other information into a table.
+License: CrapL
+LazyData: TRUE
+VignetteBuilder: knitr
+Imports: httr, rvest, digest, magrittr, stringr, xml2
+Suggests: knitr, roxygen2
