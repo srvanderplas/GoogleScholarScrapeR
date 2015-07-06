@@ -11,9 +11,6 @@
 getBibtex <- function(cite){
   userAgent <- c("user-agent"="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36")
 
-  # Read google scholar cookie authorization to set bibtex as the default
-  load("data/Cookie.Rdata")
-
   citation <- cite %>% sapply(
     FUN=function(i) {
       if(is.na(i)) return(NA)
